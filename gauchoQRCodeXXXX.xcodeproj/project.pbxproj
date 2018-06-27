@@ -15,6 +15,11 @@
 		3B63469B20E3811F00ED250C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B63469A20E3811F00ED250C /* main.m */; };
 		3B6346A520E3811F00ED250C /* gauchoQRCodeXXXXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346A420E3811F00ED250C /* gauchoQRCodeXXXXTests.m */; };
 		3B6346B020E3811F00ED250C /* gauchoQRCodeXXXXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346AF20E3811F00ED250C /* gauchoQRCodeXXXXUITests.m */; };
+		3B6346C620E3813000ED250C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346BF20E3813000ED250C /* SVIndefiniteAnimatedView.m */; };
+		3B6346C720E3813000ED250C /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B6346C120E3813000ED250C /* SVProgressHUD.bundle */; };
+		3B6346C820E3813000ED250C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346C320E3813000ED250C /* SVProgressHUD.m */; };
+		3B6346C920E3813000ED250C /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346C520E3813000ED250C /* SVRadialGradientLayer.m */; };
+		3B6346CC20E3813800ED250C /* HWQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346CB20E3813800ED250C /* HWQRCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		3B6346AB20E3811F00ED250C /* gauchoQRCodeXXXXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gauchoQRCodeXXXXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6346AF20E3811F00ED250C /* gauchoQRCodeXXXXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gauchoQRCodeXXXXUITests.m; sourceTree = "<group>"; };
 		3B6346B120E3811F00ED250C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6346BE20E3813000ED250C /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3B6346BF20E3813000ED250C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3B6346C020E3813000ED250C /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		3B6346C120E3813000ED250C /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3B6346C220E3813000ED250C /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3B6346C320E3813000ED250C /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		3B6346C420E3813000ED250C /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		3B6346C520E3813000ED250C /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		3B6346CA20E3813800ED250C /* HWQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWQRCodeViewController.h; sourceTree = "<group>"; };
+		3B6346CB20E3813800ED250C /* HWQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWQRCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +116,13 @@
 		3B63468A20E3811A00ED250C /* gauchoQRCodeXXXX */ = {
 			isa = PBXGroup;
 			children = (
+				3B6346BD20E3813000ED250C /* SVProgressHUD */,
 				3B63468B20E3811A00ED250C /* AppDelegate.h */,
 				3B63468C20E3811A00ED250C /* AppDelegate.m */,
 				3B63468E20E3811A00ED250C /* ViewController.h */,
 				3B63468F20E3811A00ED250C /* ViewController.m */,
+				3B6346CA20E3813800ED250C /* HWQRCodeViewController.h */,
+				3B6346CB20E3813800ED250C /* HWQRCodeViewController.m */,
 				3B63469120E3811A00ED250C /* Main.storyboard */,
 				3B63469420E3811F00ED250C /* Assets.xcassets */,
 				3B63469620E3811F00ED250C /* LaunchScreen.storyboard */,
@@ -130,6 +148,21 @@
 				3B6346B120E3811F00ED250C /* Info.plist */,
 			);
 			path = gauchoQRCodeXXXXUITests;
+			sourceTree = "<group>";
+		};
+		3B6346BD20E3813000ED250C /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3B6346BE20E3813000ED250C /* SVIndefiniteAnimatedView.h */,
+				3B6346BF20E3813000ED250C /* SVIndefiniteAnimatedView.m */,
+				3B6346C020E3813000ED250C /* SVProgressHUD-Prefix.pch */,
+				3B6346C120E3813000ED250C /* SVProgressHUD.bundle */,
+				3B6346C220E3813000ED250C /* SVProgressHUD.h */,
+				3B6346C320E3813000ED250C /* SVProgressHUD.m */,
+				3B6346C420E3813000ED250C /* SVRadialGradientLayer.h */,
+				3B6346C520E3813000ED250C /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +271,7 @@
 				3B63469820E3811F00ED250C /* LaunchScreen.storyboard in Resources */,
 				3B63469520E3811F00ED250C /* Assets.xcassets in Resources */,
 				3B63469320E3811A00ED250C /* Main.storyboard in Resources */,
+				3B6346C720E3813000ED250C /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6346CC20E3813800ED250C /* HWQRCodeViewController.m in Sources */,
 				3B63469020E3811A00ED250C /* ViewController.m in Sources */,
+				3B6346C920E3813000ED250C /* SVRadialGradientLayer.m in Sources */,
 				3B63469B20E3811F00ED250C /* main.m in Sources */,
+				3B6346C820E3813000ED250C /* SVProgressHUD.m in Sources */,
 				3B63468D20E3811A00ED250C /* AppDelegate.m in Sources */,
+				3B6346C620E3813000ED250C /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
