@@ -20,6 +20,7 @@
 		3B6346C820E3813000ED250C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346C320E3813000ED250C /* SVProgressHUD.m */; };
 		3B6346C920E3813000ED250C /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346C520E3813000ED250C /* SVRadialGradientLayer.m */; };
 		3B6346CC20E3813800ED250C /* HWQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6346CB20E3813800ED250C /* HWQRCodeViewController.m */; };
+		3B6346CE20E38DC200ED250C /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B6346CD20E38DC200ED250C /* Resource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		3B6346C520E3813000ED250C /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		3B6346CA20E3813800ED250C /* HWQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWQRCodeViewController.h; sourceTree = "<group>"; };
 		3B6346CB20E3813800ED250C /* HWQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWQRCodeViewController.m; sourceTree = "<group>"; };
+		3B6346CD20E38DC200ED250C /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				3B63468F20E3811A00ED250C /* ViewController.m */,
 				3B6346CA20E3813800ED250C /* HWQRCodeViewController.h */,
 				3B6346CB20E3813800ED250C /* HWQRCodeViewController.m */,
+				3B6346CD20E38DC200ED250C /* Resource.bundle */,
 				3B63469120E3811A00ED250C /* Main.storyboard */,
 				3B63469420E3811F00ED250C /* Assets.xcassets */,
 				3B63469620E3811F00ED250C /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				3B63469520E3811F00ED250C /* Assets.xcassets in Resources */,
 				3B63469320E3811A00ED250C /* Main.storyboard in Resources */,
 				3B6346C720E3813000ED250C /* SVProgressHUD.bundle in Resources */,
+				3B6346CE20E38DC200ED250C /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
